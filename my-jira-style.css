@@ -11,4 +11,21 @@
       background-color: #fff;
   }
 
+  table[id^="searchresults_portlet"] {
+    border-collapse: collapse;
+    border: 1px solid #bbb;
+  }
+  table[id^="searchresults_portlet"] tr {
+    border-bottom: 1px solid #bbb;
+  }
+  table[id^="searchresults_portlet"] tr td {
+    padding: 8px;
+  }
+  table[id^="searchresults_portlet"] tr td:nth-child(2) a {
+    text-decoration: none;
+  }
+  table[id^="searchresults_portlet"] tr td:nth-child(3) {
+    font-size: 14px !important;
+  }
+
 }
