@@ -7,6 +7,13 @@
     margin: 0 auto;
   }
 
+  body > table a {
+    text-decoration: none !important;
+  }
+  body > table a:hover {
+    text-decoration: underline !important;
+  }
+
   .rowAlternate {
       background-color: #fff;
   }
@@ -20,9 +27,6 @@
   }
   table[id^="searchresults_portlet"] tr td {
     padding: 8px;
-  }
-  table[id^="searchresults_portlet"] tr td:nth-child(2) a {
-    text-decoration: none;
   }
   table[id^="searchresults_portlet"] tr td:nth-child(3) {
     font-size: 14px !important;
