@@ -3,7 +3,7 @@
 @-moz-document url-prefix("http://jira") {
 
   /* Make common font larger */
-  body, p, ul, ol, dl, li, td, textarea, input, select, button, option, optgroup {
+  body, p, ul, ol, dl, li, td, textarea, input, select, button, option, optgroup, #issuetable .summary {
     font-size: 13px;
   }
 
@@ -44,6 +44,18 @@
   /* Favorite Filters portlets */
   table[id^="ff_portlet_main_table"] table[id^="ff_portlet_row"] {
     margin: 5px 0; /* 8 (required) - 3 (cellpadding) = 5px */
+  }
+
+  /* Issue Navigator table */
+  #issuetable {
+    border-collapse: collapse;
+    border: 1px solid #bbb;
+  }
+  #issuetable tr {
+    border-bottom: 1px solid #bbb;
+  }
+  #issuetable tr td {
+    padding: 8px;
   }
 
   /* Use new issue icons */
