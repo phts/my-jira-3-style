@@ -2,15 +2,18 @@
 
 @-moz-document url-prefix("http://jira") {
 
+  /* Make common font larger */
   body, p, ul, ol, dl, li, td, textarea, input, select, button, option, optgroup {
     font-size: 13px;
   }
 
+  /* Make main table width not 100% */
   body > table {
     width: 75%;
     margin: 0 auto;
   }
 
+  /* Make links underlined only when hovered */
   body > table a {
     text-decoration: none !important;
   }
@@ -18,10 +21,12 @@
     text-decoration: underline !important;
   }
 
+  /* Remove alternate table even row color */
   .rowAlternate {
       background-color: #fff;
   }
 
+  /* Show Saved Filter portlets */
   table[id^="searchresults_portlet"] {
     border-collapse: collapse;
     border: 1px solid #bbb;
@@ -36,6 +41,7 @@
     font-size: 14px !important;
   }
 
+  /* Use new issue icons */
   img[src="/images/icons/bugZ.gif"] {
     background-image: url("https://jira.atlassian.com/images/icons/issuetypes/bug.png");
   }
