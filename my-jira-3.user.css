@@ -90,4 +90,12 @@
     color: black;
   }
 
+  /* Increase portlet margins */
+  .projectTable, .tableBorder {
+    width: 98%;
+  }
+  body > table > tbody > tr > td > table > tbody > tr > td > p {
+    margin: 20px 0;
+  }
+
 }
