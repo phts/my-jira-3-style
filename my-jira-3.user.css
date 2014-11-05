@@ -82,5 +82,12 @@
     /* Use black color on Time Sheet Summary portlet header */
     color: black;
   }
+  /* Do not use blue color on Find Issues page */
+  #filterForm .rowHeader {
+    background-color: #f0f0f0;
+  }
+  #filterForm .rowHeader * {
+    color: black;
+  }
 
 }
