@@ -9,7 +9,7 @@
 
   /* Make main table width not 100% */
   body > table {
-    width: 75%;
+    max-width: 1500px;
     margin: 0 auto;
   }
 
