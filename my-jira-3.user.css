@@ -41,6 +41,11 @@
     font-size: 14px !important;
   }
 
+  /* Favorite Filters portlets */
+  table[id^="ff_portlet_main_table"] table[id^="ff_portlet_row"] {
+    margin: 5px 0; /* 8 (required) - 3 (cellpadding) = 5px */
+  }
+
   /* Use new issue icons */
   img[src="/images/icons/bugZ.gif"] {
     background-image: url("https://jira.atlassian.com/images/icons/issuetypes/bug.png");
