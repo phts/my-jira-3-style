@@ -26,6 +26,11 @@
       background-color: #fff;
   }
 
+  /* All portlets: increase headers paddings */
+  tr.rowHeader td {
+    padding: 8px;
+  }
+
   /* Show Saved Filter portlets */
   table[id^="searchresults_portlet"] {
     border-collapse: collapse;
