@@ -51,6 +51,11 @@
     padding: 8px;
   }
 
+  /* Project portlet */
+  .projectTable > tbody > tr > td {
+    padding: 8px;
+  }
+
   /* Issue Navigator table */
   #issuetable {
     border-collapse: collapse;
