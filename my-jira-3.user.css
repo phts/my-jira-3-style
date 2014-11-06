@@ -86,24 +86,17 @@
   }
 
   /* Make portlet header blue */
-  .rowHeader, .actionLinks {
+  tr.rowHeader, .actionLinks {
     background-color: #3c78b5;
   }
-  .rowHeader *, .colHeaderLink a {
+  tr.rowHeader *, .colHeaderLink a {
     color: #fff;
   }
   span.switch {
     color: #eee
   }
-  .rowHeader .toDay, .rowHeader .nonBusinessDay {
+  tr.rowHeader .toDay, tr.rowHeader .nonBusinessDay {
     /* Use black color on Time Sheet Summary portlet header */
-    color: black;
-  }
-  /* Do not use blue color on Find Issues page */
-  #filterForm .rowHeader {
-    background-color: #f0f0f0;
-  }
-  #filterForm .rowHeader * {
     color: black;
   }
 
