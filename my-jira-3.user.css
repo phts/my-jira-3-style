@@ -56,6 +56,11 @@
     padding: 8px;
   }
 
+  /* Recently Created Issues portlet */
+  div[id^="portletcc"] td.colHeaderLink {
+    padding: 8px;
+  }
+
   /* Issue Navigator table */
   #issuetable {
     border-collapse: collapse;
