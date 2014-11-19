@@ -151,4 +151,14 @@
     margin: 20px 0;
   }
 
+  /* Make comment form wider */
+  .commentDiv table.jiraform.maxWidth {
+    width: 100%;
+  }
+
+  /* Increase issue title margins */
+  .formtitle {
+    margin: 10px 0;
+  }
+
 }
