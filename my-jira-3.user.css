@@ -92,12 +92,36 @@
   img[src="/images/icons/sub-task.gif"] {
     background-image: url("https://jira.atlassian.com/images/icons/issuetypes/subtask_alternate.png");
   }
+
+  /* Use new priority icons */
+  img[src="/images/icons/priority_blocker.gif"] {
+    background-image: url("https://jira.atlassian.com/images/icons/priorities/blocker.png");
+  }
+  img[src="/images/icons/priority_critical.gif"] {
+    background-image: url("https://jira.atlassian.com/images/icons/priorities/critical.png");
+  }
+  img[src="/images/icons/priority_major.gif"] {
+    background-image: url("https://jira.atlassian.com/images/icons/priorities/major.png");
+  }
+  img[src="/images/icons/priority_minor.gif"] {
+    background-image: url("https://jira.atlassian.com/images/icons/priorities/minor.png");
+  }
+  img[src="/images/icons/priority_trivial.gif"] {
+    background-image: url("https://jira.atlassian.com/images/icons/priorities/trivial.png");
+  }
+
+  /* Replace image source with background image */
   img[src="/images/icons/bugZ.gif"],
   img[src="/images/icons/improvement.gif"],
   img[src="/images/icons/newfeature.gif"],
   img[src="/images/icons/undefined.gif"],
   img[src="/images/icons/task2.gif"],
-  img[src="/images/icons/sub-task.gif"] {
+  img[src="/images/icons/sub-task.gif"],
+  img[src="/images/icons/priority_blocker.gif"],
+  img[src="/images/icons/priority_critical.gif"],
+  img[src="/images/icons/priority_major.gif"],
+  img[src="/images/icons/priority_minor.gif"],
+  img[src="/images/icons/priority_trivial.gif"] {
     width: 16px;
     height: 0px !important;
     display: inline-block;
