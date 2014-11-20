@@ -142,6 +142,10 @@
     /* Use black color on Time Sheet Summary portlet header */
     color: black;
   }
+  table.versionBanner .colHeaderLink a {
+    /* Reset color for Road Map table */
+    color: #000;
+  }
 
   /* Increase portlet margins */
   .projectTable, .tableBorder {
