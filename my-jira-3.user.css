@@ -156,7 +156,7 @@
   }
 
   /* Make comment form wider */
-  .commentDiv table.jiraform.maxWidth {
+  #commentDiv table.jiraform.maxWidth {
     width: 100%;
   }
 
