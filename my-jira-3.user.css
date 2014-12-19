@@ -165,4 +165,10 @@
     margin: 10px 0;
   }
 
+  /* Make issue links as a single column */
+  #issueContent td[width="50%"] {
+    float: left;
+    width: 500px;
+  }
+
 }
