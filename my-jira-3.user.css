@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document regexp("https?://jira.*") {
+@-moz-document regexp("https?://jira\\..*") {
 
   /* Make common font larger */
   body, p, ul, ol, dl, li, td, textarea, input, select, button, option, optgroup, #issuetable .summary {
